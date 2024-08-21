@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid black;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    font-size: 8px;
+}
+
+
+.box{
+    width: 130px;
+    height: 130px;
+    font-size: 2cm;
+    text-align: center;
+    border-radius: 15px;
+    border: 10px solid pink;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    flex-grow: 1;
+
+
+}
+
+ #box1{
+    background-color: black;
+    color: rgb(196, 255, 252);
+    font-size: 40px;
+    display:flex;
+    align-items: center;
+}
+ #box2{
+    background-color: whitesmoke;
+    color: blue;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+ #box3{
+    background-color: black;
+    color: brown;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+ #box4{
+    background-color: rgb(196, 255, 204);
+    color: rgb(255, 185, 127);
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    
+}
+#box5{
+    background-color : black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+#box6{
+    background-color: rgba(255, 196, 196, 0.774);
+    color: blue;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+h3{
+    color:red;
+    [draggable]
+        color: red; 
+}
+h1{
+    text-align: center;
+    font-size: 2cm;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: pink;
+    margin-left: 0;
+    margin-right: 0;
+}
+.logo{ align-items: center;
+     
+
+
+p{
+    color: white;
+}
+
+
+}
+video{
+    
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+}
+    
+.boxed{ 
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1cm;
+}
+img{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h2{
+    text-align: center;
+    color:rgb(183, 0, 255);
+}
+.centered-image{
+    display: block;
+    margin: 0 auto;
+}
+.centered-video{
+    display: block;
+    margin: 0 auto;
+
+}
